@@ -78,8 +78,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
-  These instrucitons are taken from Software Carpentry's workshop requirements. See their list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
+  These instrucitons are taken from Software Carpentry's workshop requirements. See their list of common issues that occur during installation as a reference: 
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
