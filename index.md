@@ -26,6 +26,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <h2 id="general">General Information</h2>
 
+<p>
+  We often use Software Carpentry materials for our practicals and workshops. Please see the instructions below and visit their webpage for more information (check their lessons out for example).
+</p>
+
 {% comment %}
   INTRODUCTION
 
@@ -71,7 +75,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">General setup</h2>
+<h2 id="setup">Setup</h2>
 
 <p>
   To participate in a workshop you will need access to the software described below.
