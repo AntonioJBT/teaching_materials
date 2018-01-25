@@ -2,9 +2,9 @@
 
 This repository holds various teaching materials I use.
 
-The template is from [Software Carpentry][swc-site] and [Data Carpentry][dc-site]'s template for creating websites for workshops.
+Files are originally from [Software Carpentry][swc-site] and [Data Carpentry][dc-site]'s template for creating websites for workshops.
 
-See [these instructions if interested](https://github.com/swcarpentry/workshop-template)
+See [these instructions if interested](https://github.com/swcarpentry/workshop-template) for the original repository and instructions on how to import and customise.
 
 
 [dc-site]: http://datacarpentry.org
