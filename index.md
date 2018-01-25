@@ -32,9 +32,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Edit the general explanatory paragraph below if you want to change
   the pitch.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
-  {% include sc/intro.html %}
-{% endif %}
+
 
 {% comment %}
   AUDIENCE
@@ -42,16 +40,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Explain who your audience is.  (In particular, tell readers if the
   workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if page.carpentry == "swc" %}
-  {% include sc/who.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/who.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/who.html %}
-{% endif %}
 
 {% comment %}
-
   SYLLABUS
 
   Show what topics will be covered.
@@ -68,17 +58,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
-
-{% if page.carpentry == "swc" %}
-  {% include sc/syllabus.html %}
-{% elsif page.carpentry == "dc" %}
-  {% include dc/syllabus.html %}
-{% elsif page.carpentry == "lc" %}
-  {% include lc/syllabus.html %}
-{% endif %}
-
-<hr/>
 
 {% comment %}
   SETUP
@@ -92,14 +71,14 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">General setup</h2>
 
 <p>
   To participate in a workshop you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
-  See Software Carpentry's list of common issues that occur during installation as a reference for instructors
+  These instrucitons are taken from Software Carpentry's workshop requirements. See their list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
